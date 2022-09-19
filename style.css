@@ -1,0 +1,345 @@
+
+/* body{
+    background-color: aquamarine;
+}
+.main{
+width: 50%;
+text-align: center;
+margin:70px  auto ;
+
+}
+.main img{
+   width: 50%;
+   border-radius: 50%;
+}
+.main button{
+    border-radius: 20px;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+} */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.clear-fix{
+    clear: both;
+}
+/* home section */
+.nav{
+
+width: 90%;
+margin: auto;
+}
+.nav .nav-logo img{
+width: 13%;
+float: left;
+padding-top:15px;
+}
+.nav .nav-items a{
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+ padding-top:28px;
+
+}
+
+
+
+.home{
+    background-image: url(imges/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh-4vh;
+    color:white;
+    text-align: center;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    
+}
+.space{
+  padding-top: 150px;
+}
+.home h1{
+    font-family: 'Alegreya', serif;
+    font-size:150px;
+}
+.home p{
+    font-size: 20px;
+}
+.home button{
+    padding: 15px 30px;
+    margin-top: 30px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.home .btn1{
+    background-color:#8e7754;
+    color:white;
+    margin-right: 10px;
+}
+.home .btn2{
+    border:1px white solid;
+    color: white;
+    background-color: transparent;
+}
+
+/*end  home section */
+
+
+
+/* <!-- who we are section --> */
+.about{
+
+width: 90%;
+margin: auto;
+margin-top: 100px;
+
+}
+.about-img{
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+.about-img img{
+    width:100%;
+}
+.about-content{
+    text-align: start;
+    width:60%;
+    float:right;
+    padding: 20px 60px;
+}
+.about-content h2{
+    font-size: 32px;
+    margin-top: 35px;
+}
+.about-content p{
+    font-size: 18px;
+    margin-top: 25px;
+    color:#686868;
+   line-height: 2rem;
+   font-family: 'Alegreya Sans', sans-serif;
+}
+.about-content ul li{
+    list-style-type:none;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-top: 20px;
+    color:#686868;
+}
+.about-icon i{
+    color: #8e7754;
+    padding: 10px;
+    border-radius: 50%;
+    border:rgb(68,68,68,0.3) 1px solid;
+}
+/* <!-- end who we are section --> */
+
+
+/* our location section */
+.ourlocation{
+    background-color:#f8f8f8;
+    margin-top: 100px;
+   
+}
+.our-img{
+
+width: 40%;
+float: right;
+}
+    
+.our-img img{
+    width: 90%;
+    margin-top: 100px;
+}
+.our-content{
+width: 60%;
+float: right;
+text-align: start;
+padding-top: 150px;
+
+}
+.our-content p {
+    padding: 20px 50px;
+    color: #686868;
+    line-height: 2em;
+}
+.our-content h2{
+    padding: 10px 50px;
+}
+/* end our location section */
+
+/* our baking section */
+
+.our-baking{
+    margin-top: 100px;
+    text-align: center;
+    width: 90%;
+   margin: auto;
+ 
+}
+.baking-content h2{
+    font-size: 32px;
+    margin-top: 80px;
+}
+
+.baking-content p{
+    margin: 20px 0px;
+    font-size: 18px;
+    color: #686868;
+}
+
+.our-baking1{
+    width: 33.333%;
+    float: left;
+    padding:20px;
+}
+.our-baking1 img{
+    width: 100%;
+}
+ 
+.our-baking1 h3{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.our-baking1 p{
+    margin-top: 20px;
+    color: #686868;
+    line-height: 2em;
+    padding: 5px 15px;
+}
+/*end our baking section */
+
+/* information section */
+.information{
+    background-color:#f8f8f8;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  
+}
+/* iframe{
+    padding-right: 40px;
+} */
+.map{
+width: 50%;
+float: right;
+padding: 30px 10px;
+}
+
+
+.content-information{
+width: 50%;
+float: left;
+padding: 20px 50px;
+
+}
+.content-information h2{
+    margin-bottom: 20px;
+    font-size: 32px;
+    /* padding: 10px 50px; */
+
+}
+.content-information p{
+    color: #686868;
+    /* padding: 20px 50px; */
+}
+.p-style{
+    margin: 30px 0px 20px;
+}
+.content-information  ul li{
+    list-style-type: none;
+    color: #686868;
+    line-height: 3rem;
+}
+.informaion-icon i{
+    color:white;
+    border-radius: 50%;
+    padding:10px;
+    background-color: #8e7754;
+}
+iframe{
+    filter: drop-shadow(8px 8px 10px gray);
+    width: 90%;
+
+}
+
+
+
+/*end information section */
+
+/* contact section */
+.contact{
+    background-color:#403d38;
+    padding: 40px;
+   
+}
+
+.us{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+.us h4{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+.us p{
+ color: #686868;
+ line-height: 2rem;
+}
+.us ul li{
+    list-style-type: none;
+    color: #686868;
+    line-height: 2rem;
+}
+.icon-style i{
+    color:#686868;
+
+}
+
+.line{
+    padding: 1px;
+    width: 220px;
+    background-color: #686868;
+    margin-right: 10px;
+   
+}
+.us-image{
+    background-image: url(imges/contact-details-map.png);
+    background-size: cover;
+ 
+}
+
+/*end contact section */
+
+/* footer */
+
+footer{
+    background-color: #353330;
+    padding-top: 30px;
+    text-align: center;
+   
+
+}
+footer p{
+    color:#686868;
+    padding: 20px 0;
+}
+.footer-icon{
+    padding-bottom: 10px;
+ 
+}
+.i-space{
+    margin-right: 10px;
+}

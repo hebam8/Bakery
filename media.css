@@ -1,0 +1,53 @@
+
+
+/* our location section */
+@media screen and (min-width:0px ) and (max-width:800px) {
+    .our-img{
+        width: 100%;
+    } 
+    .about-img{
+        width: 100%;
+    }
+    .map{
+        width: 100%;
+    }
+    .content-information{
+
+        width: 100%;
+    }
+.about-content{
+    width: 100%;
+}
+    .our-content{
+        width: 100%;
+    } 
+    
+}
+
+/* our baking section */
+@media screen and (min-width:0px ) and (max-width:600px) {
+    .our-baking1{
+        width: 100%;
+    }  
+    .us{
+        width: 100%;
+    }
+    .home{
+        height: 150vh;
+    }
+   
+    
+}
+@media screen  and (min-width:601px) and (max-width:992px){
+    
+    .our-baking1{
+        width:50%;
+    } 
+    .us{
+        width: 50%;
+    }
+    .home{
+        height: 150vh;
+    }
+   
+}
