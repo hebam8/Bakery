@@ -1,60 +1,49 @@
 
-/* body{
-    background-color: aquamarine;
-}
-.main{
-width: 50%;
-text-align: center;
-margin:70px  auto ;
-
-}
-.main img{
-   width: 50%;
-   border-radius: 50%;
-}
-.main button{
-    border-radius: 20px;
-    background-color: #000;
-    color: white;
-    padding: 10px;
-} */
-
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    list-style: none;
     
+}
+html {
+    scroll-behavior: smooth;
 }
 .clear-fix{
     clear: both;
 }
 /* home section */
 .nav{
-
 width: 90%;
 margin: auto;
+
+padding: 30px 0;
 }
 .nav .nav-logo img{
-width: 13%;
+width: 180px;
 float: left;
-padding-top:15px;
 }
-.nav .nav-items a{
+.nav .nav-items {
     float: right;
-    color: white;
-    text-decoration: none;
-    font-size: 19px;
- padding-top:28px;
-
+    
 }
-
-
+ .nav-items li {
+    float: left;
+ }
+.nav-items li a {
+    text-decoration: none;
+    color: #fff;
+    margin:  0 20px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+}
 
 .home{
-    background-image: url(imges/bg.jpg);
+    background-image: url(../imges/bg.jpg);
     background-size: cover;
     background-position: center center;
-    height: 100vh-4vh;
+    height: 100vh;
     color:white;
     text-align: center;
 }
@@ -316,7 +305,7 @@ iframe{
    
 }
 .us-image{
-    background-image: url(imges/contact-details-map.png);
+    background-image: url(../imges/contact-details-map.png);
     background-size: cover;
  
 }

@@ -6,27 +6,45 @@
       href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&display=swap"
       rel="stylesheet"
     />
-
     <script
-      src="https://kit.fontawesome.com/3612fc4a4a.js"
-      crossorigin="anonymous"
-    ></script>
+    src="https://kit.fontawesome.com/3612fc4a4a.js"
+    crossorigin="anonymous"
+  ></script>
+
     <link href="./css/style.css" rel="stylesheet" />
     <link href="./css/media.css" rel="stylesheet" />
   </head>
   <body>
     <!-- home section  -->
-    <div class="home">
+    <div class="home" id="home">
       <div class="layer">
         <div class="nav">
           <div class="nav-logo">
             <img src="imges/bakery-light-1.png" alt="bakery" />
           </div>
           <div class="nav-items">
-            <a href="#"
-              >Home &nbsp &nbsp About &nbsp &nbsp Our &nbsp &nbsp Location &nbsp
-              &nbsp Gallery &nbsp &nbsp Blog &nbsp &nbsp Contact</a
-            >
+            <ul>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#our">Our Locatio</a>
+              </li>
+              <li>
+                <a href="#gallery">Gallery</a>
+              </li>
+              <li>
+                <a href="#blog">Blog</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              <div class="clear-fix"></div>
+            </ul>
+          
           </div>
           <div class="clear-fix"></div>
         </div>
@@ -45,7 +63,7 @@
     <!-- end  home section -->
 
     <!-- who we are section -->
-    <div class="about">
+    <div class="about" id="about">
       <div class="about-img">
         <div class="inner">
           <img src="./imges/alexandru-stavrica-170390-800x760.jpg" alt="about" />
@@ -83,7 +101,7 @@
     <!--end who we are section -->
 
     <!--  our location section  -->
-    <div class="ourlocation">
+    <div class="ourlocation" id="our">
       <div class="our-img">
         <img src="imges/full-2-800x640.jpg" alt="ali" />
       </div>
@@ -103,7 +121,7 @@
     <!--end  our location section  -->
 
     <!-- our baking section  -->
-    <div class="our-baking">
+    <div class="our-baking" id="gallery">
       <div class="baking-content">
         <h2>Our Baking</h2>
         <p>
@@ -152,7 +170,7 @@
     <!--end our baking section  -->
 
     <!-- map  Information section -->
-    <div class="information">
+    <div class="information" id="blog">
       <div class="map">
         <div class="ineer">
           <iframe
@@ -198,7 +216,7 @@
     <!--end map  Information section -->
 
     <!-- contact section -->
-    <div class="contact">
+    <div class="contact" id="contact">
       <div class="us">
         <div class="ineer">
           <h4>About us</h4>
