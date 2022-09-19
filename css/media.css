@@ -2,6 +2,9 @@
 
 /* our location section */
 @media screen and (min-width:0px ) and (max-width:800px) {
+    .space h1{
+        font-size: 20px;
+    }
     .our-img{
         width: 100%;
     } 
